@@ -2,3 +2,23 @@
     display: flex;
     justify-content: space-between;
 }
+
+.ProductText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ProductCard {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.ProductDetail {
+    background-color: #d0d4d8;
+}
+
+.productDetailCard {
+    margin: 20px;
+    border-radius: 5px;
+}

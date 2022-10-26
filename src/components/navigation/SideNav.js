@@ -1,29 +1,35 @@
-import React from "react";
-import { Nav } from "react-bootstrap";
+import { Link } from 'react-router-dom';
+import { IconContext } from 'react-icons';
+import { SideNavData } from './SideNavData';
 import './SideNav.css';
 
+
 const SideNav = () => {
+
     return (
-        <Nav className="col-md-12 d-none d-md-block bg-light sidebar"
-            activeKey="/home"
-            onSelect={selectedKey => alert(`selected ${selectedKey}`)}
-        >
-            <div className="sidebar-sticky"></div>
-            <Nav.Item>
-                <Nav.Link href="/home">Active</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-1">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-2">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                    Disabled
-                </Nav.Link>
-            </Nav.Item>
-        </Nav>
+        <>
+            <IconContext.Provider value={{ color: '#000' }}>
+                <div className='navbar'>
+                </div>
+                <nav className='nav-menu'>
+                    <ul className='nav-menu-items'>
+                        <p className='navbar-title'>
+                            E-commerce
+                        </p>
+                        {SideNavData.map((item, index) => {
+                            return (
+                                <li key={index} className='nav-text'>
+                                    <Link to={item.path}>
+                                        {item.icon}
+                                        <span>{item.title}</span>
+                                    </Link>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </nav>
+            </IconContext.Provider>
+        </>
     )
 }
 

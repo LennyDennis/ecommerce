@@ -1,9 +1,123 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "VicTsing Wireless Mouse,",
+      "description": "After thousands of samples of palm data, we designed this ergonomic mouse. The laptop mouse has a streamlined arc and thumb rest to help reduce the stress caused by prolonged use of the laptop mouse.",
+      "price": 10.99,
+      "image": 27
+    },
+    {
+      "id": 2,
+      "name": "Bose Frames Tenor - Rectangular Polarized, Bluetooth Audio Sunglasses",
+      "description": "Redesigned for luxury — Thoughtfully refined and strikingly elegant, the latest Bose sunglasses blend enhanced features and designs for an elevated way to listen",
+      "price": 249.0,
+      "image": 26
+    },
+    {
+      "id": 3,
+      "name": "Willful Smart Watch for Men Women 2020,",
+      "description": "Are you looking for a smart watch, which can not only easily keep tracking of your steps, calories, heart rate and sleep quality, but also keep you informed of incoming calls.",
+      "price": 29.99,
+      "image": 25
+    },
+    {
+      "id": 4,
+      "name": "Ronyes Unisex College Bag Bookbags for Women",
+      "description": "Made of high quality water-resistant material; padded and adjustable shoulder straps; external USB with built-in charging cable offers a convenient charging",
+      "price": 23.99,
+      "image": 24
+    },
+    {
+      "id": 5,
+      "name": "Toshiba Canvio Advance 2TB Portable External Hard Drive",
+      "description": "Up to 3TB of storage capacity to store your growing files and content",
+      "price": 69.99,
+      "image": 23
+    },
+    {
+      "id": 6,
+      "name": "Tile Pro - High Performance Bluetooth Tracker",
+      "description": "FIND KEYS, BAGS & MORE -- Pro is our high-performance finder ideal for keys, backpacks, luggage or any other items you want to keep track of. The easy-to-use finder and free app work with iOS and Android.",
+      "price": 29.99,
+      "image": 22
+    },
+    {
+      "id": 7,
+      "name": "Bugani M90 Portable Bluetooth Speaker",
+      "description": "Bluetooth Speakers-The M90 Bluetooth speaker uses the latest Bluetooth 5.0 technology and the latest Bluetooth ATS chip, Connecting over Bluetooth in seconds to iPhone, iPad, Smart-phones, Tablets, Windows, and other Bluetooth devices.",
+      "price": 56.0,
+      "image": 21
+    },
+    {
+      "id": 8,
+      "name": "PlayStation 4 Console",
+      "description": "All the greatest, games, TV, music and more. Connect with your friends to broadcast and celebrate your epic moments at the press of the Share button to Twitch, YouTube, Facebook and Twitter.",
+      "price": 339.95,
+      "image": 20
+    },
+    {
+      "id": 9,
+      "name": "Giotto 32oz Leakproof BPA Free Drinking Water",
+      "description": "With unique inspirational quote and time markers on it,this water bottle is great for measuring your daily intake of water,reminding you stay hydrated and drink enough water throughout the day.A must have for any fitness goals including weight loss,appetite control and overall health.",
+      "price": 16.99,
+      "image": 19
+    },
+    {
+      "id": 10,
+      "name": "Oculus Quest All-in-one VR",
+      "description": "All-in-one VR: No PC. No wires. No limits. Oculus quest is an all-in-one gaming system built for virtual reality. Now you can play almost anywhere with just a VR headset and controllers. Oculus touch controllers: arm yourself with the award-winning Oculus touch controllers. Your slashes, throws and grab appear in VR with intuitive, realistic Precision, transporting your hands and gestures right into the game",
+      "price": 645.0,
+      "image": 18
+    },
+    {
+      "id": 11,
+      "name": "Handbags for Women Large Designer bag",
+      "description": "Classic Hobo Purse: Top zipper closure, with 2 side zipper pockets design and elegant tassels decoration, fashionable and practical handbags for women, perfect for shopping, dating, travel and business",
+      "price": 39.99,
+      "image": 17
+    },
+    {
+      "id": 12,
+      "name": "Adidas Mens Tech Response Shoes",
+      "description": "Comfort + performance.  Designed with materials that are durable, lightweight and extremely comfortable. Core performance delivers the perfect mix of fit, style and all-around performance.",
+      "price": 54.59,
+      "image": 16
+    },
+    {
+      "id": 14,
+      "name": "Wireless Charger 5W Max",
+      "description": "Charge with case: transmits charging power directly through protective cases. Rubber/plastic/TPU cases under 5 mm thickness . Do not use any magnetic and metal attachments or cards, or it will prevent charging.",
+      "price": 10.83,
+      "image": 15
+    },
+    {
+      "id": 15,
+      "name": "Vankyo leisure 3 mini projector",
+      "description": "SUPERIOR VIEWING EXPERIENCE: Supporting 1920x1080 resolution, VANKYO Leisure 3 projector is powered by MStar Advanced Color Engine, which is ideal for home entertainment. 2020 upgraded LED lighting provides a superior viewing experience for you.",
+      "price": 99.99,
+      "image": 14
+    },
+    {
+      "id": 16,
+      "name": "New Apple iPad Pro",
+      "description": "Up to 10 hours of surﬁng the web on Wi‑Fi, watching video, or listening to music. Up to 9 hours of surﬁng the web using cellular data network, Compatible with Smart Keyboard Folio and Bluetooth keyboards",
+      "price": 799.99,
+      "image": 13
+    },
+    {
+      "id": 17,
+      "name": "Nike Air Max",
+      "description": "With a bold application of colorblocking inspired by modern art styles, the Nike Air Max 270 React sneaker is constructed with layers of lightweight material to achieve its artful look and comfortable feel.",
+      "price": 98.95,
+      "image": 12
+    },
+    {
+      "id": 18,
+      "name": "Logitech K380 Wireless Keyboard",
+      "description": "Logitech K380 Bluetooth Wireless Keyboard gives you the comfort and convenience of desktop typing on your smartphone, and tablet. It is a wireless keyboard that connects to all Bluetooth wireless devices that support external keyboards. Take this compact, lightweight, Bluetooth keyboard anywhere in your home. Type wherever you like, on any compatible computer, phone or tablet.",
+      "price": 81.99,
+      "image": 11
     }
   ],
   "comments": [
@@ -12,8 +126,5 @@
       "body": "some comment",
       "postId": 1
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

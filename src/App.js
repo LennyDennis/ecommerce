@@ -1,27 +1,11 @@
 import './App.css'
-// import { useState, useEffect } from 'react'
-// import Product from './components/product/Product';
+import Product from './components/product/Product';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SideNav from './components/navigation/SideNav';
+import NavBar from './components/navigation/NavBar';
 
 function App() {
-  // const [products, setProducts] = useState([])
-  // const baseUrl = 'http://localhost:5000/products'
 
-  // useEffect(() => {
-  //   const getProducts = async () => {
-  //     const productsFromServer = await fetchProducts()
-  //     setProducts(productsFromServer)
-  //   }
-
-  //   getProducts()
-  // }, [])
-
-  // const fetchProducts = async () => {
-  //   const res = await fetch(baseUrl)
-  //   const data = await res.json()
-  //   return data;
-  // }
 
 
   return (
@@ -32,13 +16,16 @@ function App() {
     <>
       <Router>
         <SideNav />
-        <Routes>
-          <Route path='/' exact />
-          {/* <Route path='/' exact component={Home} />
-          <Route path='/reports' component={Reports} />
-          <Route path='/' element={<Home/>} />
+        <div style={{ marginLeft: '250px' }}>
+          <Product />
+          <Routes>
+            <Route path='/' exact />
+            <Route path='/' exact component={Product} />
+            {/* <Route path='/reports' component={Reports} />
+          <Route path='/' element={<Home />} />
           <Route path='/products' component={Products} /> */}
-        </Routes>
+          </Routes>
+        </div>
       </Router>
     </>
 

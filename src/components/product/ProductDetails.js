@@ -1,27 +1,25 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { AiOutlineShoppingCart, AiFillShopping } from "react-icons/ai";
 import './Product.css'
 
 
 const ProductDetails = ({ product }) => {
     return (
-        <div className='productDetailCard'>
-            <div>
-                <h3>Product Details</h3>
-            </div>
-            <Card style={{ width: '20%' }}>
+        <div className='ProductDetailCard'>
+            <Card >
                 <div style={{ display: 'flex' }}>
-                    <Card.Img fluid="true" variant="top" src={require(`../../assets/images/${product.image}.png`)} />
+                    <Card.Img className='ProductDetailImage' src={require(`../../assets/images/${product.image}.png`)} />
                     <Card.Body>
-                        <Card.Title>{product.name}</Card.Title>
-                        <Card.Text>{product.price}</Card.Text>
-                        <Card.Text>
-                            {product.description}
-                        </Card.Text>
-                        <Card.Text>
-                            Free Shipping
-                        </Card.Text>
+                        <h5>Name : </h5>
+                        <h4>{product.name}</h4><br />
+                        <h5>Price : </h5>
+                        <h5>{product.price}</h5><br />
+                        <h5>Description : </h5>
+                        <p>{product.description}</p><br />
+                        <h5>Free Shipping</h5><br />
                         <Button variant="primary" size="lg">
+                            <AiOutlineShoppingCart style={{ marginRight: "10px" }} />
                             Add to cart
                         </Button>
                     </Card.Body>

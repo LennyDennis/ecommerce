@@ -1,3 +1,7 @@
+.Products {
+    padding: 80px 40px 10px 20px;
+}
+
 .ProductTitle {
     display: flex;
     justify-content: space-between;
@@ -10,7 +14,7 @@
 }
 
 .ProductCard {
-    width: 400px;
+    width: 360px;
     margin: 20px auto;
 }
 
@@ -18,7 +22,42 @@
     background-color: #d0d4d8;
 }
 
-.productDetailCard {
-    margin: 20px;
+.ProductDetailCard {
+    padding: 25px 25px 0px 30px !important;
     border-radius: 5px;
+}
+
+.ProductDetailImage {
+    width: 50% !important;
+}
+
+.ProductButtons,
+.checkoutProduct,
+.checkoutProductDetails {
+    display: flex;
+}
+
+.checkoutProduct {
+    background-color: #FFFFFF;
+    margin: 20px 0px 0px 35px !important;
+    border-radius: 10px;
+    width: 96% !important;
+}
+
+.checkoutProductDetails {
+    padding: 40px 20px;
+    width: 100% !important;
+    justify-content: space-around;
+}
+
+.checkoutProductDetailsOne {
+    max-width: 50%;
+    overflow: auto;
+}
+
+.checkoutProductDetailsTwo {
+    border-left: 1px solid #dfdfdf;
+    padding-left: 20px;
+    text-align: center;
+    align-items: center;
 }

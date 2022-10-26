@@ -6,10 +6,11 @@ export const SideNavData = [
         title: 'Products',
         path: '/',
         icon: <AiFillShopping />,
-    },
-    {
-        title: 'Shopping Cart',
-        path: '/cart',
-        icon: <AiOutlineShoppingCart />,
     }
+    // ,
+    // {
+    //     title: 'Shopping Cart',
+    //     path: '/cart',
+    //     icon: <AiOutlineShoppingCart />,
+    // }
 ];

@@ -16,12 +16,15 @@ const ProductCard = ({ product }) => {
                 <Card.Text className='ProductText'>
                     {product.description}
                 </Card.Text>
-                <Button variant="secondary" size="lg">
-                    View Product
-                </Button>{' '}
-                <Button variant="primary" size="lg">
-                    Add to cart
-                </Button>
+                <div className='ProductButtons'>
+                    <Button variant="secondary" size="md">
+                        View Product
+                    </Button>{' '}
+                    <Button variant="primary" size="md">
+                        Add to cart
+                    </Button>
+                </div>
+
 
             </Card.Body>
         </Card >

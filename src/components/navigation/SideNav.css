@@ -1,8 +1,10 @@
 .navbar {
     margin: 10px 10px 10px 290px;
-    height: 80px;
+    height: 60px;
     border-radius: 10px;
     width: 82%;
+    padding-left: 20px !important;
+    background-color: #FF9F43 !important;
 }
 
 .navbar-title {
@@ -13,7 +15,7 @@
 
 .nav-menu {
     background-color: #FFFFFF;
-    width: 250px;
+    width: 260px;
     height: 100vh;
     position: fixed;
     top: 0;

@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { AiOutlineShoppingCart, AiFillShopping } from "react-icons/ai";
 
 import './Product.css'
 
@@ -17,10 +18,12 @@ const ProductCard = ({ product }) => {
                     {product.description}
                 </Card.Text>
                 <div className='ProductButtons'>
-                    <Button variant="secondary" size="md">
+                    <Button variant="secondary">
+                        <AiOutlineShoppingCart className='IconButton' />
                         View Product
                     </Button>{' '}
-                    <Button variant="primary" size="md">
+                    <Button variant="primary">
+                        <AiFillShopping className='IconButton' />
                         Add to cart
                     </Button>
                 </div>

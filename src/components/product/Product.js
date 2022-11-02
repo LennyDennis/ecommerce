@@ -30,16 +30,16 @@ const Product = () => {
         <div style={styling} className="row Products" >
             {/* {products.length > 0 ?
                 <ProductDetails product={products[0]} /> : ""} */}
-            {products.length > 0 ?
-                < ProductCheckOut product={products[0]} /> : ""}
             {/* {products.length > 0 ?
+                < ProductCheckOut product={products[0]} /> : ""} */}
+            {products.length > 0 ?
                 <Row>
                     {products.map((product) => (
                         <Col md={3}>
                             <ProductCard key={product.id} product={product} />
                         </Col>
                     ))}
-                </Row> : "No products exist "} */}
+                </Row> : "No products exist "}
         </div >
     )
 

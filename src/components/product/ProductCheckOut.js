@@ -18,7 +18,7 @@ const ProductCheckOut = ({ product }) => {
                 <div className='checkoutProductDetailsTwo'>
                     <h5>{product.price}</h5>
                     <Button variant="secondary" style={{ marginTop: "20px" }}>
-                        <AiOutlineClose style={{ marginRight: "10px" }} />
+                        <AiOutlineClose className='IconButton' />
                         Remove from cart
                     </Button>{' '}
                 </div>
